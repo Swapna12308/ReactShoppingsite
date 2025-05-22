@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import { auth, provider as googleProvider } from '../firebase';
 import { useNavigate } from 'react-router-dom';
-
+import '../pages/login.css';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
