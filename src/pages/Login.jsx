@@ -41,7 +41,7 @@
 
 // export default Login;
 
-import './login.css'; 
+import {login.css }from '../pages'; 
 import { useState } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import { auth, provider as googleProvider } from '../firebase';
