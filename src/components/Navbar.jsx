@@ -17,7 +17,7 @@
 //   };
 //   return (
 //     <nav className="navbar">
-//       <div className="navbar-logo">🛒 ShopEase</div>
+//       <div className="navbar-logo">🛒 Fashion city</div>
 //       <button className="cart-button" onClick={onCartClick}>
 //         View Cart ({cartCount})
 //       </button>
@@ -46,7 +46,7 @@ const Navbar = ({ cartCount, onCartClick }) => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <div className="navbar-logo">🛒 ShopEase</div>
+        <div className="navbar-logo">🛒 Fashion City</div>
         {user && (
           <div className="user-name" style={{ marginLeft: '20px', fontSize: '14px' }}>
             👋 Welcome, {user.displayName || user.email}
