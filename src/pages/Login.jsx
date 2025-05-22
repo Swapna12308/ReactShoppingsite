@@ -1,4 +1,3 @@
-import '../pages/login.css';
 import { useState } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import { auth, provider as googleProvider } from '../firebase';
