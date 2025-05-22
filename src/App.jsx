@@ -53,7 +53,7 @@ import Cart from './pages/Cart';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import { auth } from './firebase';
-import './login.css';
+
 const App = () => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
